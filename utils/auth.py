@@ -62,7 +62,7 @@ def load_user_profile(user):
         pass  # Table may not exist — that's fine, we use metadata
         
     # MASTER OVERRIDE for Admin Access
-    if profile.get("email") == "it24101200@my.sliit.lk":
+    if profile.get("email") == "charithgayantha18@gmail.com":
         profile["role"] = "System Administrator"
 
     return profile

@@ -7,14 +7,14 @@
 
 ⚙️   Preprocessing data …
    Features: 27 | Rows: 574
-   💾 Scaler saved → E:\SLIIT\2Y 2S\IT2021 - Artificial Intelligence and Machine Learning Project\tourist-forecast-kandy\models\feature_scaler.pkl
+   💾 Scaler saved → .\models\feature_scaler.pkl
 
 🚀  Training XGBoost with Aggressive Hyperparameter Tuning …
    🔍 Searching for optimal hyperparameters...
 Fitting 3 folds for each of 54 candidates, totalling 162 fits
    🏆 Best Parameters Found: {'learning_rate': 0.01, 'max_depth': 6, 'n_estimators': 500, 'subsample': 0.8}
    XGBoost Test | MAE: 133  RMSE: 239  R²: 0.7972
-   💾 Saved → E:\SLIIT\2Y 2S\IT2021 - Artificial Intelligence and Machine Learning Project\tourist-forecast-kandy\models\rf_model.pkl
+   💾 Saved → .\models\rf_model.pkl
 
 🧠  Training LSTM …
 Epoch 1/150
@@ -140,7 +140,7 @@ Epoch 24/150
 [1m21/24[0m [32m━━━━━━━━━━━━━━━━━[0m[37m━━━[0m [1m0s[0m 3ms/step - loss: 0.0044 - mae: 0.0463 
 [1m24/24[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 6ms/step - loss: 0.0053 - mae: 0.0503 - val_loss: 0.0077 - val_mae: 0.0672 - learning_rate: 1.2500e-04
    LSTM Test | MAE: 183  RMSE: 248  R²: 0.4533
-   💾 Saved → E:\SLIIT\2Y 2S\IT2021 - Artificial Intelligence and Machine Learning Project\tourist-forecast-kandy\models\lstm_model.keras
+   💾 Saved → .\models\lstm_model.keras
 
    Generating 52-week future forecast (1 year) ...
 
@@ -161,6 +161,6 @@ Epoch 24/150
   Forecast range : 2026-01-01 to 2026-12-24
   Supabase push  : SUCCESS
   Local cache    : SAVED
-  Models saved in: E:\SLIIT\2Y 2S\IT2021 - Artificial Intelligence and Machine Learning Project\tourist-forecast-kandy\models
+  Models saved in: .\models
   Finished: 2026-04-05 12:09:33
 ============================================================
